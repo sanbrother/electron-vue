@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# install archive utility
+npm install -g asar
+
 # install dependencies
 npm install
 

@@ -10,7 +10,7 @@
     "start": "npm run dev",
     "electron": "cross-env ELECTRON_ENV=development electron .",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js && asar pack dist app.asar"
   },
   "dependencies": {
     "electron": "^2.0.2",
