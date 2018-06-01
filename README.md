@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# install electron command
+npm install -g electron
+
 # install archive utility
 npm install -g asar
 
